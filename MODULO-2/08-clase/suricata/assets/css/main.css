@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
+body{
+    font-family: "Open Sans", sans-serif; 
+}
+
+.bg-pink{
+    background-color: #E83E8C;
+}
+
+.bg-celeste{
+    background-color: #17A2B8;
+}
+
+.metodosPago{
+    list-style: none;
+}
+
+
+

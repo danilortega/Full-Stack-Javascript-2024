@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .box1, .box2, .box3{
+        /* .box1, .box2, .box3{
             width: 180px;
             height: 180px;
             border: 1px solid red;
@@ -49,16 +49,36 @@
             background-color: grey;
             position: relative;
             overflow: hidden;
+        } */
+        .secctionPadre{
+            width: 100%;
+            height: 600px;
+            background-color: grey;
+          
+        }
+        .sectionPadre__container{
+            width: 60%;
+            margin: 0 auto;
+            height: auto;
+            border: 1px solid red;
+            display: flex;
+            flex-direction: row-reverse;
+            /* flex-wrap: wrap-reverse; */
+            align-items: center;
+        }
+
+        .secctionPadre img {
+            padding-left: 2rem;
         }
     </style>
 </head>
 <body>
 
-    <div class="boxParent">
+    <!-- <div class="boxParent">
         <div class="box1 red">
 
         </div>
-    </div>
+    </div> -->
 
     <!-- <div class="box1 red">
 
@@ -71,6 +91,21 @@
     <div class="box3 purple">
 
     </div> -->
+
+    <section class="secctionPadre">
+            <div class="sectionPadre__container">
+
+                <img src="https://placehold.jp/400x300.png" alt="">
+
+                <div class="sectionPadre__info">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores nobis, consectetur ut minus ipsam quaerat, reiciendis corporis in exercitationem tempora labore quam nulla, necessitatibus animi reprehenderit odit nostrum error temporibus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum impedit vel dignissimos voluptate exercitationem assumenda doloremque iste alias. Illum inventore aspernatur voluptatum labore consequuntur dolor reprehenderit neque excepturi explicabo accusantium.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, adipisci exercitationem, placeat nulla quaerat, tempore eos magni temporibus aut voluptatum dolore? Ullam officiis ut iusto ipsam nostrum ratione nam explicabo!</p>
+                </div>
+             
+
+            </div>
+    </section>
+
     
 </body>
 </html>
